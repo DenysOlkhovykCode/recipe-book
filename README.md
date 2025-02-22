@@ -7,7 +7,7 @@ This project consists of a **backend** (Node.js with Express/Nest.js) and a **fr
 ### Prerequisites
 
 Ensure you have the following installed:
-- **Node.js** (>= 18.x)
+- **Node.js** (>= 22.x)
 - **npm** or **yarn**
 
 ## 🛠 Setup & Installation
