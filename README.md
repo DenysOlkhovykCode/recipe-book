@@ -14,8 +14,7 @@ Ensure you have the following installed:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/recipe-finder.git
-cd recipe-finder
+git clone https://github.com/yourusername/recipe-book.git
 ```
 
 # Install Dependencies 
