@@ -37,3 +37,4 @@ cd recipe-book
 npm install concurrently
 npm run start
 ```
+Open  http://localhost:5173/
