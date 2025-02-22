@@ -15,6 +15,7 @@ Ensure you have the following installed:
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/DenysOlkhovykCode/recipe-book.git
+cd recipe-book
 ```
 
 # Install Dependencies 
