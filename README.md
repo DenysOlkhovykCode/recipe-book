@@ -1,4 +1,4 @@
-# Recipe Finder
+# Recipe Book
 
 This project consists of a **backend** (Node.js with Express/Nest.js) and a **frontend** (React with Next.js) that provide information about recipes using the [TheMealDB API](https://www.themealdb.com/api.php).
 
