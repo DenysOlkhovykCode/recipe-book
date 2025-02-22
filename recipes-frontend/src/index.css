@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #ff6f61;
+  --secondary-color: #f4a261;
+  --background-color: #fdf6ec;
+  --text-color: #333;
+  --border-radius: 8px;
+  --transition-speed: 0.3s;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.recipe-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-recipes {
+  text-align: center;
+  font-size: 18px;
+  color: var(--primary-color);
+  padding: 20px;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.recipe-item {
+  background: white;
+  padding: 15px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform var(--transition-speed);
+}
+
+.recipe-item:hover {
+  transform: scale(1.05);
+}
+
+button {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background var(--transition-speed);
+}
+
+button:hover {
+  background: var(--secondary-color);
+}
+
+.recipe-info-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.recipe-info {
+  flex: 2;
+  background: white;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.recipe-img {
+  max-width: 50%;
+  border-radius: var(--border-radius);
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredient-btn {
+  background: var(--secondary-color);
+  margin: 5px;
+}
+
+.recipe-sidebar {
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-sidebar h4 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.back-btn {
+  margin-top: 20px;
+}
